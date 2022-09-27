@@ -11,7 +11,7 @@
 
 password = 'a123456'
 i = 3
-while True:
+while i > 0:
     usercode = input('請輸入密碼： ')
     i = i - 1
     if usercode == password:
@@ -19,9 +19,9 @@ while True:
     	break
     elif i > 0:
     	print('錯誤 你還剩', i, '次機會')
-    elif i <= 0:
-    	print('輸入三次失敗，請30分鐘後再試')
-    	break
+ 
+
+    	
 
 
 
